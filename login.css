@@ -1,0 +1,105 @@
+*{
+    font-family: 'Noto Sans', sans-serif;
+}
+body{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	min-height: 100vh;
+    background: url(https://www.travelescape.in/wp-content/uploads/2020/06/friendship-adventure-scaled.jpg);
+	background-repeat: no-repeat;
+    background-position: center;
+}
+.logo{ 
+	justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 75px;
+ 
+}
+.wrapper{
+	width: 480px;
+	background: transparent;
+	border: 3px solid rgba(153, 152, 152, 0.193);
+	color: black;
+	backdrop-filter: blur(20px);
+	box-shadow: 0 0 10px rgb(63, 63, 63);
+	border-radius: 15px;
+	padding: 35px 40px;
+    height: 450px;
+}
+.loginh{
+	margin: 30px;
+	font-size: 40px;
+	text-align: center;
+}
+.input-box{
+	width: 100%;
+	height:55px ;
+	margin: 30px;
+	
+}
+.inputbox{
+	width: 100%;
+	height: 100%;
+    background: transparent;
+	border:none ;
+	outline:none ;
+	border: 3px solid rgb(62, 62, 62);
+	border-radius: 45px;
+	font-size: 15px;
+	font-weight: bold;
+}
+.inputbox::placeholder{
+	color: rgb(241, 245, 248);
+	padding: 10px;
+}
+
+.remember-forget{
+display: flex;
+justify-content: space-between;
+font-size: 15px;
+margin: -15px 0 15px;
+}
+.remember-forget1{
+	accent-color: rgb(0, 8, 255);
+	margin-right: 3px;
+    font-weight: bold;
+}
+.remember-forget2{
+	color: blue;
+	text-decoration: none;
+	font-size: 15px;
+}
+.remember-forget2:hover{
+cursor: pointer;
+border-bottom: 2px solid blue;
+
+}
+.btn{
+	width: 100%;
+	height:50px ;
+	border: none;
+	outline: none;
+	border-radius: 45px;
+	box-shadow: 0 0 10px solid black;
+	cursor: pointer;
+	font-size: 15px;
+	font-weight: bolder;
+	color: rgb(255, 0, 0);
+}
+.register-link{
+	font-size: 15px;
+	text-align: center;
+	margin-top: 20px;
+
+}
+.register-link1{
+	color: beige;
+	text-decoration: none;
+	font-weight: 700;
+}
+.register-link1:hover{
+text-decoration: underline;
+
+}
